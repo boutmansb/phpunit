@@ -1,0 +1,8 @@
+<phpunit>
+     <testsuites>
+         <testsuite name="My Awesome Test Suite">
+             <directory>tests</directory>
+             <directory>/*/tests</directory>
+         </testsuite>
+     </testsuites>
+</phpunit>
