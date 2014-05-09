@@ -3,9 +3,8 @@
         "phpunit/phpunit": "4.1.*"
     },
     "autoload": {
-        "psr-4": {
-            "Monolog\\": "src/",
-            "Vendor\\Namespace\\": ""
+        "psr-0": {
+            "": "src/"
         }
     }
 }
